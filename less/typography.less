@@ -1,0 +1,54 @@
+@color1: #3E76C0; // Dark Blue
+@color2: #5A5A5A; // Dark Grey
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2 {
+    font-size: 46px;
+    color: @color1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1 {
+    font-weight: 200;
+}
+h2 {
+    font-weight: 500;
+}
+p {
+    font-size: 16px;
+    font-weight: normal;
+    color: @color1;
+    text-align: center;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+}
+.helpText {
+	padding-top: 20px;
+	color: @color2;
+	width: 250px;
+	text-align: left;
+}
+a {
+	margin-top: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;	
+}
+
+ .button {
+    background-color: @color1;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: .8px;
+    &:hover {
+        text-decoration: none;
+    }
+}
